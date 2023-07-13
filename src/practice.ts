@@ -1,9 +1,35 @@
-let person: [string, number];
-person = ['Max', 21];
-
-enum Status {LOADING, READY};
-
-const setStatus = {
-     status: Status.LOADING
+type pageTypes = {
+     title: string,
+     likes: number,
+     accounts: string[],
+     status: string,
+     details: {
+          createAt: string,
+          updateAt: string,
+     }
 };
 
+type page2Types = {
+     title: string,
+     likes: number,
+     accounts: string[],
+     status: string
+}
+
+const page1: pageTypes = {
+     title: 'The awesome page',
+     likes: 100,
+     accounts: ['Max', 'Anton', 'Nikita'],
+     status: 'open',
+     details: {
+       createAt: '2021-01-01',
+       updateAt: '2021-05-01',
+     }
+   }
+   
+   const page2 = {
+     title: 'Python or Js',
+     likes: 5,
+     accounts: ['Alex'],
+     status: 'close',
+   }
