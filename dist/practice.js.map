@@ -1,1 +1,1 @@
-{"version":3,"file":"practice.js","sourceRoot":"","sources":["../src/practice.ts"],"names":[],"mappings":""}
+{"version":3,"file":"practice.js","sourceRoot":"","sources":["../src/practice.ts"],"names":[],"mappings":";AAKC,CAAC;AAEF,IAAI,GAAS,CAAC;AAEd,GAAG,GAAG;IACF,KAAK,EAAE,MAAM;IACb,KAAK,EAAE,KAAK;IAEZ,KAAK,CAAC,IAAY;QACd,OAAO,CAAC,GAAG,CAAC,IAAI,EAAE,IAAI,CAAC,KAAK,CAAC,CAAA;IACjC,CAAC;CACJ,CAAA;AAED,GAAG,CAAC,KAAK,CAAC,WAAW,CAAC,CAAA"}
